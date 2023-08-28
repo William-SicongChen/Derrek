@@ -1,5 +1,11 @@
 html {
     text-align: center;
+    height: 100vh;
+}
+
+.profile {
+    display: flex;
+    align-items: stretch;
 }
 
 .profile > * {
@@ -11,6 +17,8 @@ html {
     display:flex; 
     flex-direction:column; 
     flex:1;
+    align-items: center;
+    border-radius: 10px;
 }
 
 img {
@@ -22,7 +30,6 @@ img {
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
-
     color: orange;
 }
 
@@ -32,7 +39,10 @@ h4 {
 
 ul {
     text-align: start;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    list-style: None;
 }
 
 li {
@@ -43,20 +53,25 @@ li {
     font-family: 'Caveat', cursive;
 }
 
+.plans > * {
+    margin-bottom: 50px;
+    font-size: large;
+}
+
 @media (min-width: 481px) {
     .profile {
-        display: flex;
         justify-content: space-evenly;
-        align-items: stretch;
         gap: 2%;
     }
   }
 
   @media (max-width: 480px) {
     .profile {
-        display: flex;
         flex-direction: column;
-        align-items: stretch;
+    }
+
+    .page {
+        margin-bottom: 5%;
     }
   }
 
