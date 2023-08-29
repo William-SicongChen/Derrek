@@ -29,7 +29,7 @@ img {
 
 h1 {
     font-family: 'Nunito', sans-serif;
-    font-size: x-large;
+    font-size: 4rem;
     color: orange;
 }
 
@@ -47,6 +47,7 @@ ul {
 
 li {
     margin: 10px 0;
+    font-size: 2rem;
 }
 
 .intro {
@@ -55,7 +56,7 @@ li {
 
 .plans > * {
     margin-bottom: 50px;
-    font-size: large;
+    font-size: 2rem;
 }
 
 @media (min-width: 481px) {
