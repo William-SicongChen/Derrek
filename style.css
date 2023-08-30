@@ -5,6 +5,7 @@ html {
 .profile {
     display: flex;
     gap: 1rem;
+    height:90vh;
 }
 
 .page {
@@ -12,13 +13,6 @@ html {
     border: 8px solid grey;
     align-items: center;
     border-radius: 10px;
-    max-width: 500px;
-}
-
-img {
-   width: 100%;
-   height: auto;
-   flex: None;
 }
 
 h1 {
@@ -35,28 +29,49 @@ ul {
     text-align: start;
     padding-left: 15px;
     padding-right: 5px;
-    margin: auto;
     list-style: None;
 }
 
-li {
-    margin: 15px 0;
+.one li {
+    font-size: 18px;
+    font-weight: bold;
+    flex-shrink: 1;
+    margin: 8px 0;
 }
 
-.one li {
-    font-size: 20px;
-}
+.one img {
+    width: 50%;
+    height: auto;
+    flex-shrink: 1;
+    margin-bottom: auto;
+ }
 
 .two li {
-    font-size: 22px;
+    font-size: 19px;
+    margin: 10px 0;
 }
+
+.two img {
+    width: 50%;
+    height: auto;
+    margin-bottom: auto;
+    flex-shrink: 1;
+ }
 
 .three li {
     font-size: 24px;
+    margin: 22px 0;
 }
 
+.three img {
+    width: 90%;
+    height: auto;
+    margin-bottom: auto;
+    flex-shrink: 1;
+ }
+
 .four li {
-    margin-top: 28px;
+    margin-top: 15px;
     font-size: 22px;
 }
 
@@ -70,12 +85,16 @@ li {
 }
 
 .contact {
-    font-size: 22px;
+    font-size: 20px;
+    height: 4vh;
+    margin-top: 0;
 }
 
 footer {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 25px;
+    height:1vh;
+    text-align: end;
 }
 
 @media (min-width: 481px) {
