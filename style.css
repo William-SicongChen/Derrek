@@ -61,11 +61,6 @@ li {
     font-size: 1.5rem;
 }
 
-.info {
-    columns: 2;
-    column-gap:0;
-}
-
 footer {
     margin-top: 0;
     font-size: 2rem;
