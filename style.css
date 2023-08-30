@@ -4,7 +4,7 @@ html {
 
 .profile {
     display: flex;
-    
+    gap: 1rem;
 }
 
 .page {
@@ -12,6 +12,7 @@ html {
     border: 8px solid grey;
     align-items: center;
     border-radius: 10px;
+    max-width: 500px;
 }
 
 img {
@@ -22,13 +23,13 @@ img {
 
 h1 {
     font-family: 'Nunito', sans-serif;
-    font-size: 2.5rem;
+    font-size: 30px;
     color: orange;
 }
 
 h4 {
     margin-top: 0;
-    font-size:2rem;
+    font-size:25px;
 }
 
 ul {
@@ -41,16 +42,15 @@ ul {
 
 li {
     margin: 15px 0;
-    font-size: 1.5rem;
 }
 
 .intro {
     font-family: 'Caveat', cursive;
+    font-size: 35px;
 }
 
 .plans > * {
-    margin-bottom: 35px;
-    font-size: 1.5rem;
+    margin-bottom: 32px;
 }
 
 .four li {
@@ -58,18 +58,18 @@ li {
 }
 
 .contact {
-    font-size: 1.5rem;
+    font-size: 22px;
 }
 
 footer {
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 @media (min-width: 481px) {
     .profile {
         justify-content: space-evenly;
-        gap: 2%;
+
     }
   }
 
@@ -77,10 +77,6 @@ footer {
     .profile {
     flex-direction: column;
              }
-
-    .page {
-        margin-bottom: 5%;
-    }
   }
 
 
