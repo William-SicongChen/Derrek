@@ -1,22 +1,15 @@
 html {
     text-align: center;
-    height: 100vh;
 }
 
 .profile {
     display: flex;
-    align-items: stretch;
-}
-
-.profile > * {
-    flex: 1;
-    border: 8px solid grey;
+    
 }
 
 .page {
-    display:flex; 
-    flex-direction:column; 
     flex:1;
+    border: 8px solid grey;
     align-items: center;
     border-radius: 10px;
 }
@@ -29,7 +22,7 @@ img {
 
 h1 {
     font-family: 'Nunito', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: orange;
 }
 
@@ -40,15 +33,15 @@ h4 {
 
 ul {
     text-align: start;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0;
+    padding-left: 15px;
+    padding-right: 5px;
+    margin: auto;
     list-style: None;
 }
 
 li {
-    margin: 10px 0;
-    font-size: 2rem;
+    margin: 15px 0;
+    font-size: 1.5rem;
 }
 
 .intro {
@@ -56,12 +49,12 @@ li {
 }
 
 .plans > * {
-    margin-bottom: 50px;
-    font-size: 2rem;
+    margin-bottom: 35px;
+    font-size: 1.5rem;
 }
 
 .four li {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .contact {
@@ -76,20 +69,23 @@ li {
 footer {
     margin-top: 0;
     font-size: 2rem;
-
 }
 
 @media (min-width: 481px) {
+    body {
+        height: 95vh;
+    }
+
     .profile {
         justify-content: space-evenly;
         gap: 2%;
     }
   }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .profile {
-        flex-direction: column;
-    }
+    flex-direction: column;
+             }
 
     .page {
         margin-bottom: 5%;
