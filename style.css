@@ -29,7 +29,6 @@ h1 {
 
 h4 {
     margin-top: 0;
-    font-size:25px;
 }
 
 ul {
@@ -44,17 +43,30 @@ li {
     margin: 15px 0;
 }
 
+.one li {
+    font-size: 20px;
+}
+
+.two li {
+    font-size: 22px;
+}
+
+.three li {
+    font-size: 24px;
+}
+
+.four li {
+    margin-top: 28px;
+    font-size: 22px;
+}
+
 .intro {
     font-family: 'Caveat', cursive;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .plans > * {
     margin-bottom: 32px;
-}
-
-.four li {
-    margin-top: 30px;
 }
 
 .contact {
@@ -78,6 +90,3 @@ footer {
     flex-direction: column;
              }
   }
-
-
-
