@@ -6,6 +6,7 @@ html {
     display: flex;
     gap: 1rem;
     height: 98vh;
+    margin:10px;
 }
 
 .page {
