@@ -37,7 +37,7 @@ ul {
     font-size: 20px;
     font-weight: bold;
     flex-shrink: 1;
-    margin: 5px 1px;
+    margin: 9px 1px;
 }
 
 .one img {
@@ -62,7 +62,7 @@ ul {
 
 .three li {
     font-size: 24px;
-    margin: 14px 0;
+    margin: 21px 0;
 }
 
 .three img {
@@ -73,7 +73,7 @@ ul {
  }
 
 .four li {
-    margin: 10px 0;
+    margin: 25px 0;
     font-size: 23px;
 }
 
